@@ -14,7 +14,9 @@ export default function Home() {
   const [feedback, setFeedback] = useState(null) // { type: 'success' | 'error', message: string }
 
   useEffect(() => {
-    const targetDate = new Date("2024-12-31T23:59:59")
+    // const targetDate = new Date("2024-12-31T23:59:59")
+    const targetDate = new Date("2024-09-26T23:59:59")
+
 
     const updateCountdown = () => {
       const now = new Date()
@@ -90,7 +92,9 @@ export default function Home() {
       className="min-h-screen flex flex-col items-center justify-center text-white p-4 bg-gradient-to-br from-indigo-600 to-purple-700"
     >
       <h1 className="text-5xl sm:text-6xl font-extrabold mb-4 text-center">Icchaporon</h1>
-      <p className="text-2xl sm:text-3xl mb-8 text-center">Coming Soon</p>
+      <p className="text-2xl sm:text-3xl mb-8 text-center">Welcome to Merchant Panel</p>
+      <p className="text-2xl sm:text-3xl mb-8 text-center">New Recipes Coming Soon!
+      </p>
 
       {/* Countdown Timer */}
       <div className="flex flex-wrap justify-center gap-6 mb-8">
