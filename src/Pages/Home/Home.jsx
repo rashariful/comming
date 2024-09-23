@@ -92,7 +92,7 @@ export default function Home() {
       className="min-h-screen flex flex-col items-center justify-center text-white p-4 bg-gradient-to-br from-indigo-600 to-purple-700"
     >
       <h1 className="text-5xl sm:text-6xl font-extrabold mb-4 text-center">Icchaporon</h1>
-      <p className="text-2xl sm:text-3xl mb-8 text-center">Welcome to Merchant Panel</p>
+      <p className="text-2xl sm:text-3xl mb-8 text-center">Welcome to Client Panel</p>
       <p className="text-2xl sm:text-3xl mb-8 text-center">New Recipes Coming Soon!
       </p>
 
