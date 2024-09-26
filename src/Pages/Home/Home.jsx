@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(() => {
     // const targetDate = new Date("2024-12-31T23:59:59")
-    const targetDate = new Date("2024-09-26T23:59:59")
+    const targetDate = new Date("2024-09-27T22:00:00")
 
 
     const updateCountdown = () => {
